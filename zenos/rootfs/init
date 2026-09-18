@@ -1,0 +1,15 @@
+#!/bin/sh
+
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t devtmpfs devtmpfs /dev
+
+echo
+echo "======================"
+echo "       ZENOS"
+echo "======================"
+echo
+echo "Kernel booted successfully!"
+echo
+
+exec /bin/sh

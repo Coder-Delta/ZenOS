@@ -1,0 +1,37 @@
+# Linux kernel build output
+linux/.config
+linux/System.map
+linux/vmlinux
+linux/vmlinux.o
+linux/Module.symvers
+linux/modules.order
+linux/arch/*/boot/*.img
+linux/arch/*/boot/bzImage
+linux/arch/*/boot/Image
+linux/arch/*/boot/compressed/
+linux/.tmp_versions/
+linux/include/generated/
+linux/include/config/
+linux/scripts/mod/
+linux/*.o
+linux/*.ko
+
+# ZenOS generated files
+zenos/initramfs.cpio
+zenos/initramfs.cpio.gz
+zenos/*.img
+zenos/*.iso
+
+# Root filesystem runtime/generated directories
+zenos/rootfs/proc/*
+zenos/rootfs/sys/*
+zenos/rootfs/dev/*
+zenos/rootfs/tmp/*
+
+# Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
