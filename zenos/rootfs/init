@@ -10,6 +10,5 @@ echo "       ZENOS"
 echo "======================"
 echo
 echo "Kernel booted successfully!"
-echo
 
-exec /bin/sh
+exec /usr/bin/setsid /bin/cttyhack /bin/sh
